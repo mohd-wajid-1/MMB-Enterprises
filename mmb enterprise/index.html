@@ -1380,19 +1380,34 @@
     <div class="enquiry text-center">
       <div class="row">
 
-        <form action="https://">
+        
+        <form action="https://formsubmit.co/Shahedmirza3515@gmail.com" method="POST" >
           <div class="inputBox">
-            <input type="text" placeholder="Enter your name" required>
+            <label for="senderName" class="form-label"></label>
+            <input type="text" name="Name" class="form-control" id="senderName" placeholder="Enter your name" >
           </div>
+
+          <div class="inputBox ">
+            <label for="senderPhone" class="form-label"></label>
+          <input type="number" name="Number" class="form-control" id="senderPhone" placeholder="Phone nunber">
+          </div>
+
+
           <div class="inputBox">
-            <input type="number" placeholder="Phone number" required>
+            <label for="senderEmail" class="form-label"></label>
+          <input type="email" name="email" class="form-control" id="senderEmail" placeholder="E-mail address" aria-describedby="emailHelp" >
           </div>
+
           <div class="inputBox">
-            <input type="email" name="email" placeholder="Email" required>
+          <label for="senderMessage" class="form-label"></label>
+            <textarea class="form-control" name="message" id="senderMessage" placeholder="Type your message..." cols="50" rows="50"></textarea>
           </div>
-          <textarea name="" placeholder="Type your message..." id="" cols="30" rows="10"></textarea>
+          <div>
           <input type="submit" value="send message" class="btn">
+        </div>
         </form>
+        
+        
       </div>
 
     </div>
