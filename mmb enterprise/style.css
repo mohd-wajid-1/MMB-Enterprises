@@ -1025,8 +1025,9 @@ transition: 0.5s;color: #666;
 }
 .contact .enquiry .row .btn{
     border: 2px solid #eee;
-    background: #e2eeff;
+    background: #000;
     font-size: 1.3rem;
+    color: white;
 }
 .contact .enquiry .row .btn:hover{
     background: skyblue;
